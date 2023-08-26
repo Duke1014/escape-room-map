@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './divergenceone.css'
-import './mobilephones.css'
+// import './mobilephones.css'
 
 import oneDashHorizontal from './img/1 Dash Horizontal.png'
 import twoDashHorizontal from './img/2 Dash Horizontal.png'

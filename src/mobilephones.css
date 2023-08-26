@@ -1,7 +1,7 @@
 @media only screen and (max-width: 480px) {
     .heresy-grid {
-        grid-template-columns: repeat(25, 1em) !important;
-        grid-template-rows: repeat(28, 1em) !important;
+        grid-template-columns: repeat(25, min-content) !important;
+        grid-template-rows: repeat(28, 1fr) !important;
         column-gap: 10px;
     }
     .heresy-grid .stamp {
@@ -20,8 +20,8 @@
         display: grid;
         place-items: center;
         place-self: center;
-        width: 50px;
-        height: 50px;
+        width: 8rem;
+        height: 8rem;
         z-index: 5;
         margin-inline: 16px;
         position: relative;
@@ -35,7 +35,7 @@
         /* width: 15%; */
 
         padding: 10px;
-        font-size:x-small;
+        font-size:medium;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
